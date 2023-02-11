@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     {{-- A0S --}}
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>ABS | {{ $title }}</title>
+    <title>PT. Anugerah Bumi Samudra | {{ $title }}</title>
   </head>
   <body>
     @include('partials.navbar')

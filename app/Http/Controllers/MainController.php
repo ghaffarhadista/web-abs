@@ -149,6 +149,26 @@ class MainController extends Controller
             "title" => "Plastic Bag Biodegradable"
         ]);
     }
+
+    public function customer()
+    {
+        if ($locale = session('locale')) {
+            app()->setLocale($locale);
+        }
+        return view('pages.subpage.customer', [
+            "title" => "Our Customers"
+        ]);
+    
+    }
+    public function factory()
+    {
+        if ($locale = session('locale')) {
+            app()->setLocale($locale);
+        }
+        return view('pages.subpage.factory', [
+            "title" => "Factory Operational"
+        ]);
+    }
     // SWITCH LANGUAGE
 
     public function switch($locale)

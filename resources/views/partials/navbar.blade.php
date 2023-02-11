@@ -1,7 +1,8 @@
-<nav id="navbar" class="navbar navbar-expand-lg fw-bold shadow-sm">
+<nav id="navbar" class="navbar bg-light navbar-expand-lg fw-bold shadow-sm sticky-sm-top">
     <div class="container">
       <a class="navbar-brand" href="/">
-        <img src="img/logo/abs.png" alt="" width="100">
+        <img src="img/logo/abs.png" alt="" width="90">
+        <span class="text-header">PT. ANUGERAH BUMI SAMUDRA</span>
       </a>
       <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

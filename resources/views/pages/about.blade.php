@@ -2,7 +2,7 @@
 
 @section('container')
 
-<div class="section-about">
+<div class="section-about mb-5">
     <div class="title-about">
         <h2 class="text-center fw-bolder" data-aos="flip-left" data-aos-duration="1000">@lang('navbar.about')</h2>
     </div>
@@ -13,10 +13,10 @@
 </div>
 {{-- <svg xmlns="http://www.w3.org/logo/2000/svg" viewBox="0 0 1440 320"><path fill="#2746B0" fill-opacity="1" d="M0,32L60,53.3C120,75,240,117,360,117.3C480,117,600,75,720,64C840,53,960,75,1080,74.7C1200,75,1320,53,1380,42.7L1440,32L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg> --}}
 
-<div class="container-md section-card-about">
+{{-- <div class="container-md section-card-about">
     <div class="row d-flex justify-content-evenly">
         <div class="col-lg-4 col-md-12 col-12">
-          <div class="card" data-aos="zoom-in-up">
+          <div class="card card-about-section" data-aos="zoom-in-up">
             <div class="card-about card-body" >
               <h5 class="card-title" data-aos="zoom-out-up" data-aos-duration="1500">@lang('navbar.vision')</h5>
               <p class="card-text" data-aos="fade-up"
@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-12 col-12">
-          <div class="card" data-aos="zoom-in-up">
+          <div class="card card-about-section" data-aos="zoom-in-up">
             <div class="card-about card-body">
               <h5 class="card-title" data-aos="zoom-out-up" data-aos-duration="1500">@lang('navbar.mission')</h5>
               <p class="card-text" data-aos="fade-up"
@@ -34,7 +34,7 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-12 col-12">
-          <div class="card" data-aos="zoom-in-up">
+          <div class="card card-about-section" data-aos="zoom-in-up">
             <div class="card-about card-body">
               <h5 class="card-title" data-aos="zoom-out-up" data-aos-duration="1500">@lang('navbar.value')</h5>
               <p class="card-text" data-aos="fade-up"
@@ -44,79 +44,74 @@
           </div>
         </div>
       </div>
+</div> --}}
+<div class="container">
+  <div class="row justify-content-center" data-aos="fade-down">
+    <div class="col-lg-8">
+  
+            <div class="row">
+  
+              <div class="fact-body mb-5">
+                <img class="img-fluid img-fact" src="../img/bg/19.jpeg" alt="">
+            </div>
+          <div class="fact-body mb-5">
+            <img class="img-fluid img-fact" src="../img/bg/17.jpeg" alt="">
+        </div>
+              <div class="fact-body mb-5">
+                <img class="img-fluid img-fact" src="../img/bg/2.jpeg" alt="">
+            </div>
+              <div class="fact-body mb-5">
+                <img class="img-fluid img-fact" src="../img/bg/18.jpeg" alt="">
+            </div>
+            
+  
+        </div>
+    </div>
+  
+          <div class="col-lg-3 mb-3">
+  
+            <div class="card-product">
+              <div class="text-center">
+                <img src="../img/bg/agung.jpg" style="width: 200px; height:auto;" class="card-img-top" alt="...">
+              </div>
+                <div class="card-body">
+                    <h5 class="card-title fw-bolder ">Director :</h5>
+                    <p>Agung Budiarto | Blitar, 17 Maret 1970 | 0877 8267 3429 | budiarto70agung@yahoo.com</p>
+                    {{-- <li class="text-dark listed-contact">> S1 Tek. Perkapalan ITS Surabaya <b>(1990-1994)</b></li>
+                    <li class="text-dark listed-contact">> S2 Manajemen STIE SUPRA/KALBE Jakarta <b>(2003-2005)</b></li>
+                    <li class="text-dark listed-contact">> CHIEF OF UK FOOTBALL - ITS SURABAYA <b>(1991-1992)</b></li>
+                    <li class="text-dark listed-contact">> CHIEF OF HIMATEKPAL - ITS SURABAYA <b>(1992-1993)</b></li>
+                    <li class="text-dark listed-contact">> SENATOR SENAT MAHASISWA - ITS SURABAYA <b>(1993-1994)</b></li>
+                    <li class="text-dark listed-contact">> QA MANAGER PT. REXAM <b>(1995-1997)</b></li>
+                    <li class="text-dark listed-contact">> ENGINEERING MANAGER PT. FORINDOPRIMA PERKASA  <b>(1998)</b></li>
+                    <li class="text-dark listed-contact">> MARKETING MANAGER PT. FORINDOPRIMA PERKASA & PT. YANAPRIMA HASTA PERSADA (WOVEN, JUMBO BAG, PAPER BAG) GRESIK <b>(1999-2000)</b></li>
+                    <li class="text-dark listed-contact">> MARKETING MANAGER PT. INTI ABADI KEMASINDO (WOVEN BAG, JUMBO BAG, PAPER BAG) BOGOR <b>(2001-2008)</b></li>
+                    <li class="text-dark listed-contact">> OWNER / DIRECTOR PT. ANUGRAH BUMI SAMUDRA BOGOR <b>(2008- NOW)</b></li> --}}
+                </div>
+          </div>
+  
+              <div class="card-product mb-3">
+                <img src="../img/bg/contactus.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title fw-bolder ">@lang('navbar.office') :</h5>
+                      <p class="">Jl. Alternatif Cileungsi – Gandoang, Gg. Jaya Kusuma RT. 06 RW. 03 Kp. Mampir Barat, <br> Kecamatan Cileungsi Kabupaten Bogor, Jawa Barat 16820</p>
+                      <h5 class="card-title fw-bolder ">@lang('navbar.factory') :</h5>
+                      <p class="">Gg. Jaya Kusuma, Mampir, Kec. Cileungsi, Kabupaten Bogor, Jawa Barat 16820</p>
+                      <h5 class="card-title fw-bolder ">E-mail :</h5>
+                      <li class="text-dark listed-contact">budiarto70agung@yahoo.com</li>
+                      <li class="text-dark listed-contact">ptabs@ymail.com</li>
+                      <h5 class="pt-2 card-title fw-bolder ">Telephone :</h5>
+                      <li class="text-dark listed-contact">+62 8128 0690 138</li>
+                      <li class="text-dark listed-contact"> +62 8778 2673 429</li>
+                  </div>
+            </div>
+  
+           
+          
+        </div>
+  </div>
 </div>
 
 
-<div class="customer-section">
-    <div class="title">
-        <h2 data-aos="fade-down">@lang('navbar.ourcus')</h2>
-    </div>
-    <div class="customer-body">
-        <div class="customer-sub-title">
-            <h2 data-aos="flip-up" data-aos-duration="500">Indonesia :</h2>
-        </div>
-        <div class="container-fluid row-logo">
-           <div class="row pb-4 text-center">
-            <div class="col-logo col-lg-3 col-md-6 col-12" data-aos="flip-left" data-aos-duration="1000">
-                <img src="../img/logo/holcim.png" alt="logo-customers" height="100" width="250">
-            </div>
-            <div class="col-logo col-lg-3 col-md-6 col-12" data-aos="flip-left" data-aos-duration="1050">
-                <img src="../img/logo/pupuk-kujang.png" alt="logo-customers"  height="150" width="150">
-            </div>
-            <div class="col-logo col-lg-3 col-md-6 col-12" data-aos="flip-left" data-aos-duration="1100">
-                <img src="../img/logo/bosowa.png" alt="logo-customers"  height="150" width="150">
-            </div>
-            <div class="col-logo col-lg-3 col-md-6 col-12" data-aos="flip-left" data-aos-duration="1150">
-                <img src="../img/logo/pama.png" alt="logo-customers"  height="150" width="150">
-            </div>
-           </div>
-           <div class="row text-center">
-            <div class="col-logo col-lg-3 col-md-6 col-12" data-aos="flip-left" data-aos-duration="1200">
-                <img src="../img/logo/semen-padang.png" alt="logo-customers" height="150" width="150">
-            </div>
-            <div class="col-logo col-lg-3 col-md-6 col-12" data-aos="flip-left" data-aos-duration="1250">
-                <img src="../img/logo/semen-tonasa.png" alt="logo-customers" height="150" width="150">
-            </div>
-            <div class="col-logo col-lg-3 col-md-6 col-12" data-aos="flip-left" data-aos-duration="1300">
-                <img src="../img/logo/tereos.png" alt="logo-customers" height="150" width="150">
-            </div>
-            <div class="col-logo col-lg-3 col-md-6 col-12" data-aos="flip-left" data-aos-duration="1370">
-                <img src="../img/logo/unitedcan.png" alt="logo-customers" height="150" width="150">
-            </div>
-           </div>
-           <div class="row last-row">
-            <div class="col-logo-last col-logo-first col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-duration="1400">
-                <img src="../img/logo/ferro.png" alt="logo-customers" height="50" width="100">
-            </div>
-            <div class="col-logo-last col-logo-second col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-duration="1450">
-                <img src="../img/logo/wilmar.png" alt="logo-customers" height="50" width="100">
-            </div>
-            <div class="col-logo-last col-logo-third col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-duration="1520">
-                <img src="../img/logo/olam.png" alt="logo-customers" height="50" width="100">
-            </div>
-           </div>
-        </div>
-            <div class="container bottom-customers">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 col-12" data-aos="fade-right" data-aos-duration="1000">
-                        <ul>
-                            <li>PT. Nielsen Engineriing & Technology (Nickel & Cement Project)</li>
-                            <li>PT. Hogindo Feedmill (Feedmill Industry)</li>
-                            <li>PT. Multiprima Usahatama (Transportation to Halliburton, Holcim)</li>
-                            <li>PT. Sinar Agro Komposindo (Fertilizer Industry)</li>
-
-                        </ul>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-12 mb-5" data-aos="fade-left" data-aos-duration="1000">
-                        <ul>
-                            <h2 class="export-text">Export :</h2>
-                            <li>Han Yeek Trading , Malaysia</li>
-                            <li>Manuver Marketing Network, Phillipines</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     
 @endsection

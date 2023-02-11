@@ -23,7 +23,7 @@
                 </div>
                 <div class="header-contact">
                     <h2 class="pb-2" data-aos="fade-down"><i class="icon-location bi bi-telephone-plus-fill"></i> Telephone</h2>
-                    <li class="listed-contact" data-aos="fade-down"><i class="bi bi-caret-right-fill"></i> +62 8128 0690 139</li>
+                    <li class="listed-contact" data-aos="fade-down"><i class="bi bi-caret-right-fill"></i> +62 8128 0690 138</li>
                     <li class="listed-contact" data-aos="fade-down"> <i class="bi bi-caret-right-fill"></i> +62 8778 2673 429</li>
                 </div>
             </div>

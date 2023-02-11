@@ -41,6 +41,9 @@ Route::get('/pepp-rope', [MainController::class, 'pepprope']);
 Route::get('/plastic', [MainController::class, 'plastic']);
 Route::get('/others', [MainController::class, 'others']);
 
+Route::get('/customer', [MainController::class, 'customer']);
+Route::get('/factory', [MainController::class, 'factory']);
+
 
 // BAHASA
 

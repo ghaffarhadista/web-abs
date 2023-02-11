@@ -6,14 +6,20 @@
     <div class="title-produk">
         <h2 class="text-center mb-4">{{ $title }}</h2>
     </div>
-    <div class="image-produk text-center">
-        <img src="../img/jumbo/1.jpeg" alt="Product">
-    </div>
-    <div class="body-produk  mt-5">
-        <div class="text-center">
-            <p>@lang('navbar.jumbo1')</p>
-            <p>@lang('navbar.jumbo2')</p>
-        </div>
+    <div class="row g-0 product-row">
+      <div class="col-lg-6">
+        <div class="image-produk text-center">
+          <img src="../img/jumbo/1.jpeg" class="rounded" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);" alt="Product">
+      </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="body-produk">
+          <div class="text-product">
+              <p>@lang('navbar.jumbo1')</p>
+              <p>@lang('navbar.jumbo2')</p>
+          </div>
+      </div>
+      </div>
         <table class="table table-hover table-sm table-bordered text-center">
             <tbody>
               <tr>
@@ -72,9 +78,6 @@
             </div>
             <div class="image-application pb-3 col-lg-6 col-md-12 col-12 text-start">
                 <img src="../img/jumbo/4.jpeg" alt="image-produk">
-            </div>
-            <div class="image-application pb-3 col-lg-6 col-md-12 col-12 text-end">
-                <img src="../img/jumbo/application.jpeg" alt="image-produk">
             </div>
     </div>
 </div>
